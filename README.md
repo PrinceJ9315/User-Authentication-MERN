@@ -1,6 +1,6 @@
 # Project Name - User Authentication System
 
-## Prerequisites
+#Prerequisites
 
 Before you can run the project, you need to have Node.js and npm (Node Package Manager) installed on your machine. If you haven't installed them yet, you can download and install them from [Node.js official website](https://nodejs.org/).
 
@@ -13,6 +13,6 @@ Before you can run the project, you need to have Node.js and npm (Node Package M
    ```bash
    git clone https://github.com/your-username/your-repository.git
 
-# Install Node Modules on both frontend and backend - npm install
-# To run Frontend - npm run dev
-# To run backend - npm run start
+#Install Node Modules on both frontend and backend - npm install
+#To run Frontend - npm run dev
+#To run backend - npm run start
