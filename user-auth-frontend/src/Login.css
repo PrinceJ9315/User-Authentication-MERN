@@ -1,0 +1,87 @@
+/* Login.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: white
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group-text {
+    background: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.input-group input {
+    border: 1px solid #ced4da;
+    border-radius: 0 4px 4px 0;
+    padding: 0.75rem;
+    outline: 1px solid #ced4da;
+}
+
+.input-group input:focus {
+    border-color: #2575fc;
+    outline: 2px solid #6a11cb;
+}
+
+.btn-success {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border: none;
+    color: white;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.btn-default {
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+    color: #333;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-default:hover {
+    background: #e2e6ea;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
